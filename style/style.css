@@ -79,4 +79,9 @@
   margin-top: 40px;
   border: 0.8px solid rgb(184, 180, 180);
   cursor: pointer;
+}
+
+.fa-brands {
+  font-size: 40px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

@@ -12,14 +12,17 @@
         <!-- Bootstrap Font Icon CSS -->
         <link rel="stylesheet" href=
     "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <!-- font awesome cdn
+    <!--font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/webfonts/fa-brands-400.ttf">
-    <script src="https://kit.fontawesome.com/ac2e2f2f97.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/ac2e2f2f97.js" crossorigin="anonymous"></script>
     <!--customized css-->
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="../index.js"></script>
 
     <title>utimatic</title>
+    <link rel = "icon" href = 
+"https://utimatic.com/assets/images/logo.png" 
+        type = "image/x-icon">
   </head>
   <body>
     <section>
@@ -51,48 +54,31 @@
                         <a class="nav-link " href="../blog.html">Blog</a>
                       </li>
                     </ul>
-                    <form class="d-flex">
-                      <button href="../login.html">Login</button>
-                    </form>
+                    <li class="d-flex">
+                      <a class="btn"  href="../login.html">Login</a>
+                    </li>
                   </div>
                 </div>
               </nav>
 
     </section>
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-6">
-                    <div>
-                        <img src="https://utimatic.com/upload/service_images//jNSb3C3QZXAL0bd.jpg" style=" max-width:100%; height: 384px;">
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6">
-                    <div class="description">
-                    <h5>Classic Bathroom Cleaning</h5>
-                    <h6>Service Price :- 499</h6>
-                    <h5>INCLUDED</h5>
-                    <p>(ITEMS REMOVAL BEFORE CLEANING,STAIN REMOVAL, CLEANING OF SPOTS,CLEANING OF ALL AREAS & SURFACES)</p>
-                    <h5>EXCLUDED</h5>
-                    <p>(PROVIDE A LADDER IF REQUIRED, WET WIPING OF THE WALLS,CLEANING OF FLOOR & TILES WITH SCRUBBING MACHINE)</p>
-                    </div>
-                    <div class="butn">
-                        <button>Add To Cart</button>
-                        <button>Checkout Now</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
- <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" type="text/javascript"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous" type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous" type="text/javascript"></script>
-    
-  </body>
-</html>
+    <div>
+        <section>
+            <h3>Cancellation and Refund Policy</h3>
+            <p>Any Capitalized terms used but not defined herein shall have the meaning assigned to them under the Terms of Use which govern your use of our website www.utimatic.com (the “Website”) and our ‘Utimatic’ application for mobile and handheld devices (the “App”). The Website and the App are jointly referred to as the “Platform”.</p>
+            <h4>1. Cancellation Policy</h4>
+            <p>1.As a general rule customer shall not be entitled to cancel Order once placed. Customer may choose to cancel order only 01 hour before the scheduled timeframe. However, subject to customer’s previous cancellation history, Utimatic reserves the right to deny any refund to customer’s pursuant to a cancellation initiated by customer even if the same is before 01 hour followed by suspension of account, as may be necessary in the sole discretion of Utimatic.</p>
+            <p>2. No cancellation charges will apply, if you reschedule or cancel until 01 hour before the service.</p>
+            <p>3. If a confirmed booking is not cancelled/rescheduled before 01 hour of the booked slot, 100% cancellation charges will apply.</p>
+            <h4>2. Refund Policy</h4>
+            <p>1. Customer shall not be entitled to a refund if order cancelled within 01 hour of booked slot.</p>
+            <p>2. In case the order is cancelled by the customer within the timeframe as mentioned in the cancellation policy, refund shall be processed in the same manner as they are received.</p>
+            <p>3. Refund amount will be credited back to customer within 7 working days based on respective bank policies.</p>
+        </section>
+        <div w3-include-html="../footer.html" style="margin-top: 80px;"></div>
+    </div>
+    <script>
+        includeHTML();
+        </script>
+    </body>
+    </html>
